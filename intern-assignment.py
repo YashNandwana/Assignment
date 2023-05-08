@@ -18,7 +18,7 @@ def profile_matcher(first_name, last_name):
             if i['First Name'] == first_name and i['Last Name'] == last_name:
                 # set the female candidate reader
                 female = i
-                # set female candidate DOB which will be used furthur
+                # set female candidate DOB which will be used further
                 female_dob = datetime.strptime(i['Date of Birth'], '%m/%d/%y')
                 
                 for j in i['Height']:
